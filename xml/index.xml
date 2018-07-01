@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.13">
+  <compound refid="class_blob" kind="class"><name>Blob</name>
+    <member refid="class_blob_1aa6387723adb0b9bc5972cf68cc85f4b3" kind="variable"><name>quadro</name></member>
+    <member refid="class_blob_1ad4eeb7d2aa4ef4f6c6e038737ce41043" kind="variable"><name>proxPos</name></member>
+    <member refid="class_blob_1a07f56ca5b367f2a9b15622d92e2c671a" kind="variable"><name>posicoesCentro</name></member>
+    <member refid="class_blob_1a83d705f2b426be288d87c6f606175889" kind="variable"><name>contornoAtual</name></member>
+    <member refid="class_blob_1ad77546934e684be45fa6d12d8370d0c7" kind="variable"><name>diagonal</name></member>
+    <member refid="class_blob_1a0e1f64cf95a07d948728f9e00d1feec1" kind="variable"><name>proporcao</name></member>
+    <member refid="class_blob_1a121b1af88b7c0752403f6eca92ab2150" kind="variable"><name>blobAtualNovo</name></member>
+    <member refid="class_blob_1a57b76134e44f731fdb2afcf85de066c4" kind="variable"><name>naTela</name></member>
+    <member refid="class_blob_1a3c6b8107db4ef7269ad117f1120a69e3" kind="variable"><name>numFrames</name></member>
+    <member refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" kind="function"><name>Blob</name></member>
+    <member refid="class_blob_1afbea7ea42d7e01e4d84c799d5fd7e8a5" kind="function"><name>ProxPos</name></member>
+  </compound>
+  <compound refid="namespacecv" kind="namespace"><name>cv</name>
+  </compound>
+  <compound refid="namespacestd" kind="namespace"><name>std</name>
+  </compound>
+  <compound refid="_blob_8cpp" kind="file"><name>Blob.cpp</name>
+  </compound>
+  <compound refid="_blob_8h" kind="file"><name>Blob.h</name>
+  </compound>
+  <compound refid="_main_8cpp" kind="file"><name>Main.cpp</name>
+    <member refid="_main_8cpp_1a5f80550661781105dac995103754a262" kind="variable"><name>PRETO</name></member>
+    <member refid="_main_8cpp_1a7c4a0519bc3e090ee4e3831391a9e018" kind="variable"><name>BRANCO</name></member>
+    <member refid="_main_8cpp_1a7b2cb89c87c76a1d832ef7ed097d9505" kind="variable"><name>AMARELO</name></member>
+    <member refid="_main_8cpp_1aba06b79f5f073991c8a0afa7ebf9f534" kind="variable"><name>VERDE</name></member>
+    <member refid="_main_8cpp_1a4d72d63fede13ee55603d480e2c28fd8" kind="variable"><name>VERMELHO</name></member>
+    <member refid="_main_8cpp_1a6bd1388b3554788f7d8d2019b2e00303" kind="variable"><name>contEsq</name></member>
+    <member refid="_main_8cpp_1a58d02c40e7b027e0b1ff6ce88c63280e" kind="variable"><name>contDir</name></member>
+    <member refid="_main_8cpp_1af393771749f2513a141d946bb885291b" kind="function"><name>distPontos</name></member>
+    <member refid="_main_8cpp_1afd251a63f3d03c2563a1f1dcf0ccb6f0" kind="function"><name>insereBlob</name></member>
+    <member refid="_main_8cpp_1a71c7b1ac1ca05b2e298a38fa1f7e58f8" kind="function"><name>novoBlob</name></member>
+    <member refid="_main_8cpp_1a3b43a4786c55005af285428e7c7ced87" kind="function"><name>verificaBlob</name></member>
+    <member refid="_main_8cpp_1ada3c309241ca0406bdf3a8cce848abf2" kind="function"><name>Contorno</name></member>
+    <member refid="_main_8cpp_1a08a385c14c747c894052ff8664a51dff" kind="function"><name>Contorno</name></member>
+    <member refid="_main_8cpp_1a69dab197c810eaf3e966b71fd45b8df3" kind="function"><name>cruzouLinhaDir</name></member>
+    <member refid="_main_8cpp_1a6c2c44c0ed121fc428f0f2be7d870f37" kind="function"><name>cruzouLinhaEsq</name></member>
+    <member refid="_main_8cpp_1a4d5709a14b312373c1bebc1e0cc51479" kind="function"><name>blobInfo</name></member>
+    <member refid="_main_8cpp_1a1ac43d4e5e9f9024d51d4df35879a7e3" kind="function"><name>contador</name></member>
+    <member refid="_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" kind="function"><name>main</name></member>
+  </compound>
+  <compound refid="_r_e_a_d_m_e_8md" kind="file"><name>README.md</name>
+  </compound>
+  <compound refid="md__r_e_a_d_m_e" kind="page"><name>md_README</name>
+  </compound>
+  <compound refid="indexpage" kind="page"><name>index</name>
+  </compound>
+</doxygenindex>

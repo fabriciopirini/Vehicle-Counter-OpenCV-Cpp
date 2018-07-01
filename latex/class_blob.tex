@@ -1,0 +1,133 @@
+\hypertarget{class_blob}{}\section{Referência à classe Blob}
+\label{class_blob}\index{Blob@{Blob}}
+
+
+{\ttfamily \#include $<$Blob.\+h$>$}
+
+
+
+Diagrama de colaboração para Blob\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=174pt]{class_blob__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Membros públicos}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_blob_af61bf71a4f486a4eeba6165bbfdbb8f6}{Blob} (vector$<$ Point $>$ contorno)
+\item 
+void \hyperlink{class_blob_afbea7ea42d7e01e4d84c799d5fd7e8a5}{Prox\+Pos} (void)
+\end{DoxyCompactItemize}
+\subsection*{Atributos Públicos}
+\begin{DoxyCompactItemize}
+\item 
+Rect \hyperlink{class_blob_aa6387723adb0b9bc5972cf68cc85f4b3}{quadro}
+\item 
+Point \hyperlink{class_blob_ad4eeb7d2aa4ef4f6c6e038737ce41043}{prox\+Pos}
+\item 
+vector$<$ Point $>$ \hyperlink{class_blob_a07f56ca5b367f2a9b15622d92e2c671a}{posicoes\+Centro}
+\item 
+vector$<$ Point $>$ \hyperlink{class_blob_a83d705f2b426be288d87c6f606175889}{contorno\+Atual}
+\item 
+double \hyperlink{class_blob_ad77546934e684be45fa6d12d8370d0c7}{diagonal}
+\item 
+double \hyperlink{class_blob_a0e1f64cf95a07d948728f9e00d1feec1}{proporcao}
+\item 
+bool \hyperlink{class_blob_a121b1af88b7c0752403f6eca92ab2150}{blob\+Atual\+Novo}
+\item 
+bool \hyperlink{class_blob_a57b76134e44f731fdb2afcf85de066c4}{na\+Tela}
+\item 
+int \hyperlink{class_blob_a3c6b8107db4ef7269ad117f1120a69e3}{num\+Frames}
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentação dos Construtores \& Destrutor}
+\mbox{\Hypertarget{class_blob_af61bf71a4f486a4eeba6165bbfdbb8f6}\label{class_blob_af61bf71a4f486a4eeba6165bbfdbb8f6}} 
+\index{Blob@{Blob}!Blob@{Blob}}
+\index{Blob@{Blob}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{Blob()}{Blob()}}
+{\footnotesize\ttfamily Blob\+::\+Blob (\begin{DoxyParamCaption}\item[{vector$<$ Point $>$}]{contorno }\end{DoxyParamCaption})}
+
+Número consecutivo de frames sem parecer com o blob
+
+Inicializa os parâmetros do blob Calcula o centro do blob
+
+Calcula a diagonal do quadro do blob
+
+Calcula a proporção do quadro do blob
+
+Define que o blob está na tela e é atual/novo 
+
+\subsection{Documentação dos métodos}
+\mbox{\Hypertarget{class_blob_afbea7ea42d7e01e4d84c799d5fd7e8a5}\label{class_blob_afbea7ea42d7e01e4d84c799d5fd7e8a5}} 
+\index{Blob@{Blob}!Prox\+Pos@{Prox\+Pos}}
+\index{Prox\+Pos@{Prox\+Pos}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{Prox\+Pos()}{ProxPos()}}
+{\footnotesize\ttfamily void Blob\+::\+Prox\+Pos (\begin{DoxyParamCaption}\item[{void}]{ }\end{DoxyParamCaption})}
+
+Calcula a próxima posição do centro do blob 
+
+\subsection{Documentação dos dados membro}
+\mbox{\Hypertarget{class_blob_a121b1af88b7c0752403f6eca92ab2150}\label{class_blob_a121b1af88b7c0752403f6eca92ab2150}} 
+\index{Blob@{Blob}!blob\+Atual\+Novo@{blob\+Atual\+Novo}}
+\index{blob\+Atual\+Novo@{blob\+Atual\+Novo}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{blob\+Atual\+Novo}{blobAtualNovo}}
+{\footnotesize\ttfamily bool Blob\+::blob\+Atual\+Novo}
+
+Proporção do quadro do blob \mbox{\Hypertarget{class_blob_a83d705f2b426be288d87c6f606175889}\label{class_blob_a83d705f2b426be288d87c6f606175889}} 
+\index{Blob@{Blob}!contorno\+Atual@{contorno\+Atual}}
+\index{contorno\+Atual@{contorno\+Atual}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{contorno\+Atual}{contornoAtual}}
+{\footnotesize\ttfamily vector$<$Point$>$ Blob\+::contorno\+Atual}
+
+Coordenadas do centro do blob \mbox{\Hypertarget{class_blob_ad77546934e684be45fa6d12d8370d0c7}\label{class_blob_ad77546934e684be45fa6d12d8370d0c7}} 
+\index{Blob@{Blob}!diagonal@{diagonal}}
+\index{diagonal@{diagonal}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{diagonal}{diagonal}}
+{\footnotesize\ttfamily double Blob\+::diagonal}
+
+Contorno do blob \mbox{\Hypertarget{class_blob_a57b76134e44f731fdb2afcf85de066c4}\label{class_blob_a57b76134e44f731fdb2afcf85de066c4}} 
+\index{Blob@{Blob}!na\+Tela@{na\+Tela}}
+\index{na\+Tela@{na\+Tela}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{na\+Tela}{naTela}}
+{\footnotesize\ttfamily bool Blob\+::na\+Tela}
+
+Verifica se o blob é atual/novo ou antigo \mbox{\Hypertarget{class_blob_a3c6b8107db4ef7269ad117f1120a69e3}\label{class_blob_a3c6b8107db4ef7269ad117f1120a69e3}} 
+\index{Blob@{Blob}!num\+Frames@{num\+Frames}}
+\index{num\+Frames@{num\+Frames}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{num\+Frames}{numFrames}}
+{\footnotesize\ttfamily int Blob\+::num\+Frames}
+
+Verifica se o blob ainda está na tela \mbox{\Hypertarget{class_blob_a07f56ca5b367f2a9b15622d92e2c671a}\label{class_blob_a07f56ca5b367f2a9b15622d92e2c671a}} 
+\index{Blob@{Blob}!posicoes\+Centro@{posicoes\+Centro}}
+\index{posicoes\+Centro@{posicoes\+Centro}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{posicoes\+Centro}{posicoesCentro}}
+{\footnotesize\ttfamily vector$<$Point$>$ Blob\+::posicoes\+Centro}
+
+Próxima posição do centro do blob \mbox{\Hypertarget{class_blob_a0e1f64cf95a07d948728f9e00d1feec1}\label{class_blob_a0e1f64cf95a07d948728f9e00d1feec1}} 
+\index{Blob@{Blob}!proporcao@{proporcao}}
+\index{proporcao@{proporcao}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{proporcao}{proporcao}}
+{\footnotesize\ttfamily double Blob\+::proporcao}
+
+Diagonal do quadro do blob \mbox{\Hypertarget{class_blob_ad4eeb7d2aa4ef4f6c6e038737ce41043}\label{class_blob_ad4eeb7d2aa4ef4f6c6e038737ce41043}} 
+\index{Blob@{Blob}!prox\+Pos@{prox\+Pos}}
+\index{prox\+Pos@{prox\+Pos}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{prox\+Pos}{proxPos}}
+{\footnotesize\ttfamily Point Blob\+::prox\+Pos}
+
+Contorno retangular do blob \mbox{\Hypertarget{class_blob_aa6387723adb0b9bc5972cf68cc85f4b3}\label{class_blob_aa6387723adb0b9bc5972cf68cc85f4b3}} 
+\index{Blob@{Blob}!quadro@{quadro}}
+\index{quadro@{quadro}!Blob@{Blob}}
+\subsubsection{\texorpdfstring{quadro}{quadro}}
+{\footnotesize\ttfamily Rect Blob\+::quadro}
+
+
+
+A documentação para esta classe foi gerada a partir dos seguintes ficheiros\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{_blob_8h}{Blob.\+h}\item 
+\hyperlink{_blob_8cpp}{Blob.\+cpp}\end{DoxyCompactItemize}

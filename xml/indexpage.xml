@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="indexpage" kind="page">
+    <compoundname>index</compoundname>
+    <title>Contador de Veículos</title>
+    <detaileddescription>
+<sect1 id="index_1intro_sec">
+<title>Introdução</title>
+<para>Esse projeto consiste em um sistema capaz de contar o número de veículos que estão de passagem em uma rodovia com a utilização de técnicas aprendidas em Processamentos Digitais de Sinais</para></sect1>
+<sect1 id="index_1install_sec">
+<title>Execução</title>
+<para>Executar os comandos na pasta base do projeto: <linebreak/>
+ g++ -o main *.cpp <computeroutput>pkg-config --cflags --libs opencv</computeroutput> <linebreak/>
+ ./main </para></sect1>
+    </detaileddescription>
+  </compounddef>
+</doxygen>

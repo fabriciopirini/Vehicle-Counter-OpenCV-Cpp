@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="class_blob" kind="class" language="C++" prot="public">
+    <compoundname>Blob</compoundname>
+    <includes refid="_blob_8h" local="no">Blob.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_blob_1aa6387723adb0b9bc5972cf68cc85f4b3" prot="public" static="no" mutable="no">
+        <type>Rect</type>
+        <definition>Rect Blob::quadro</definition>
+        <argsstring></argsstring>
+        <name>quadro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="13" column="1" bodyfile="Blob.h" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" compoundref="_blob_8cpp" startline="4" endline="27">Blob</referencedby>
+        <referencedby refid="_main_8cpp_1afd251a63f3d03c2563a1f1dcf0ccb6f0" compoundref="_main_8cpp" startline="44" endline="52">insereBlob</referencedby>
+        <referencedby refid="_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_main_8cpp" startline="196" endline="364">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blob_1ad4eeb7d2aa4ef4f6c6e038737ce41043" prot="public" static="no" mutable="no">
+        <type>Point</type>
+        <definition>Point Blob::proxPos</definition>
+        <argsstring></argsstring>
+        <name>proxPos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contorno retangular do blob </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="14" column="1" bodyfile="Blob.h" bodystart="14" bodyend="-1"/>
+        <referencedby refid="class_blob_1afbea7ea42d7e01e4d84c799d5fd7e8a5" compoundref="_blob_8cpp" startline="30" endline="72">ProxPos</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blob_1a07f56ca5b367f2a9b15622d92e2c671a" prot="public" static="no" mutable="no">
+        <type>vector&lt; Point &gt;</type>
+        <definition>vector&lt;Point&gt; Blob::posicoesCentro</definition>
+        <argsstring></argsstring>
+        <name>posicoesCentro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Próxima posição do centro do blob </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="15" column="1" bodyfile="Blob.h" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" compoundref="_blob_8cpp" startline="4" endline="27">Blob</referencedby>
+        <referencedby refid="class_blob_1afbea7ea42d7e01e4d84c799d5fd7e8a5" compoundref="_blob_8cpp" startline="30" endline="72">ProxPos</referencedby>
+        <referencedby refid="_main_8cpp_1afd251a63f3d03c2563a1f1dcf0ccb6f0" compoundref="_main_8cpp" startline="44" endline="52">insereBlob</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blob_1a83d705f2b426be288d87c6f606175889" prot="public" static="no" mutable="no">
+        <type>vector&lt; Point &gt;</type>
+        <definition>vector&lt;Point&gt; Blob::contornoAtual</definition>
+        <argsstring></argsstring>
+        <name>contornoAtual</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Coordenadas do centro do blob </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="16" column="1" bodyfile="Blob.h" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" compoundref="_blob_8cpp" startline="4" endline="27">Blob</referencedby>
+        <referencedby refid="_main_8cpp_1afd251a63f3d03c2563a1f1dcf0ccb6f0" compoundref="_main_8cpp" startline="44" endline="52">insereBlob</referencedby>
+        <referencedby refid="_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_main_8cpp" startline="196" endline="364">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blob_1ad77546934e684be45fa6d12d8370d0c7" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Blob::diagonal</definition>
+        <argsstring></argsstring>
+        <name>diagonal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Contorno do blob </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="17" column="1" bodyfile="Blob.h" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" compoundref="_blob_8cpp" startline="4" endline="27">Blob</referencedby>
+        <referencedby refid="_main_8cpp_1afd251a63f3d03c2563a1f1dcf0ccb6f0" compoundref="_main_8cpp" startline="44" endline="52">insereBlob</referencedby>
+        <referencedby refid="_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_main_8cpp" startline="196" endline="364">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blob_1a0e1f64cf95a07d948728f9e00d1feec1" prot="public" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Blob::proporcao</definition>
+        <argsstring></argsstring>
+        <name>proporcao</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Diagonal do quadro do blob </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="18" column="1" bodyfile="Blob.h" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" compoundref="_blob_8cpp" startline="4" endline="27">Blob</referencedby>
+        <referencedby refid="_main_8cpp_1afd251a63f3d03c2563a1f1dcf0ccb6f0" compoundref="_main_8cpp" startline="44" endline="52">insereBlob</referencedby>
+        <referencedby refid="_main_8cpp_1a840291bc02cba5474a4cb46a9b9566fe" compoundref="_main_8cpp" startline="196" endline="364">main</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blob_1a121b1af88b7c0752403f6eca92ab2150" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Blob::blobAtualNovo</definition>
+        <argsstring></argsstring>
+        <name>blobAtualNovo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Proporção do quadro do blob </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="19" column="1" bodyfile="Blob.h" bodystart="19" bodyend="-1"/>
+        <referencedby refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" compoundref="_blob_8cpp" startline="4" endline="27">Blob</referencedby>
+        <referencedby refid="_main_8cpp_1a71c7b1ac1ca05b2e298a38fa1f7e58f8" compoundref="_main_8cpp" startline="55" endline="58">novoBlob</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blob_1a57b76134e44f731fdb2afcf85de066c4" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Blob::naTela</definition>
+        <argsstring></argsstring>
+        <name>naTela</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Verifica se o blob é atual/novo ou antigo </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="20" column="1" bodyfile="Blob.h" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" compoundref="_blob_8cpp" startline="4" endline="27">Blob</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_blob_1a3c6b8107db4ef7269ad117f1120a69e3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Blob::numFrames</definition>
+        <argsstring></argsstring>
+        <name>numFrames</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Verifica se o blob ainda está na tela </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="21" column="1" bodyfile="Blob.h" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" compoundref="_blob_8cpp" startline="4" endline="27">Blob</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Blob::Blob</definition>
+        <argsstring>(vector&lt; Point &gt; contorno)</argsstring>
+        <name>Blob</name>
+        <param>
+          <type>vector&lt; Point &gt;</type>
+          <declname>contorno</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Número consecutivo de frames sem parecer com o blob</para><para>Inicializa os parâmetros do blob </para>        </detaileddescription>
+        <inbodydescription>
+<para>Calcula o centro do blob</para><para>Calcula a diagonal do quadro do blob</para><para>Calcula a proporção do quadro do blob</para><para>Define que o blob está na tela e é atual/novo </para>        </inbodydescription>
+        <location file="Blob.h" line="23" column="1" bodyfile="Blob.cpp" bodystart="4" bodyend="27"/>
+        <references refid="class_blob_1a83d705f2b426be288d87c6f606175889" compoundref="_blob_8h" startline="16">contornoAtual</references>
+        <references refid="class_blob_1aa6387723adb0b9bc5972cf68cc85f4b3" compoundref="_blob_8h" startline="13">quadro</references>
+        <references refid="class_blob_1a07f56ca5b367f2a9b15622d92e2c671a" compoundref="_blob_8h" startline="15">posicoesCentro</references>
+        <references refid="class_blob_1ad77546934e684be45fa6d12d8370d0c7" compoundref="_blob_8h" startline="17">diagonal</references>
+        <references refid="class_blob_1a0e1f64cf95a07d948728f9e00d1feec1" compoundref="_blob_8h" startline="18">proporcao</references>
+        <references refid="class_blob_1a57b76134e44f731fdb2afcf85de066c4" compoundref="_blob_8h" startline="20">naTela</references>
+        <references refid="class_blob_1a121b1af88b7c0752403f6eca92ab2150" compoundref="_blob_8h" startline="19">blobAtualNovo</references>
+        <references refid="class_blob_1a3c6b8107db4ef7269ad117f1120a69e3" compoundref="_blob_8h" startline="21">numFrames</references>
+      </memberdef>
+      <memberdef kind="function" id="class_blob_1afbea7ea42d7e01e4d84c799d5fd7e8a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Blob::ProxPos</definition>
+        <argsstring>(void)</argsstring>
+        <name>ProxPos</name>
+        <param>
+          <type>void</type>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Calcula a próxima posição do centro do blob </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Blob.h" line="24" column="1" bodyfile="Blob.cpp" bodystart="30" bodyend="72"/>
+        <references refid="class_blob_1a07f56ca5b367f2a9b15622d92e2c671a" compoundref="_blob_8h" startline="15">posicoesCentro</references>
+        <references refid="class_blob_1ad4eeb7d2aa4ef4f6c6e038737ce41043" compoundref="_blob_8h" startline="14">proxPos</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Blob</label>
+        <link refid="class_blob"/>
+      </node>
+    </collaborationgraph>
+    <location file="Blob.h" line="11" column="1" bodyfile="Blob.h" bodystart="11" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_blob_1af61bf71a4f486a4eeba6165bbfdbb8f6" prot="public" virt="non-virtual"><scope>Blob</scope><name>Blob</name></member>
+      <member refid="class_blob_1a121b1af88b7c0752403f6eca92ab2150" prot="public" virt="non-virtual"><scope>Blob</scope><name>blobAtualNovo</name></member>
+      <member refid="class_blob_1a83d705f2b426be288d87c6f606175889" prot="public" virt="non-virtual"><scope>Blob</scope><name>contornoAtual</name></member>
+      <member refid="class_blob_1ad77546934e684be45fa6d12d8370d0c7" prot="public" virt="non-virtual"><scope>Blob</scope><name>diagonal</name></member>
+      <member refid="class_blob_1a57b76134e44f731fdb2afcf85de066c4" prot="public" virt="non-virtual"><scope>Blob</scope><name>naTela</name></member>
+      <member refid="class_blob_1a3c6b8107db4ef7269ad117f1120a69e3" prot="public" virt="non-virtual"><scope>Blob</scope><name>numFrames</name></member>
+      <member refid="class_blob_1a07f56ca5b367f2a9b15622d92e2c671a" prot="public" virt="non-virtual"><scope>Blob</scope><name>posicoesCentro</name></member>
+      <member refid="class_blob_1a0e1f64cf95a07d948728f9e00d1feec1" prot="public" virt="non-virtual"><scope>Blob</scope><name>proporcao</name></member>
+      <member refid="class_blob_1ad4eeb7d2aa4ef4f6c6e038737ce41043" prot="public" virt="non-virtual"><scope>Blob</scope><name>proxPos</name></member>
+      <member refid="class_blob_1afbea7ea42d7e01e4d84c799d5fd7e8a5" prot="public" virt="non-virtual"><scope>Blob</scope><name>ProxPos</name></member>
+      <member refid="class_blob_1aa6387723adb0b9bc5972cf68cc85f4b3" prot="public" virt="non-virtual"><scope>Blob</scope><name>quadro</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

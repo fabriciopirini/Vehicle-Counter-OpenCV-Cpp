@@ -1,32 +1,32 @@
 #include "Blob.h"
 
-// Inicializa os parâmetros do blob
+/** Inicializa os parâmetros do blob */
 Blob::Blob(vector<Point> contorno) {
     contornoAtual = contorno;
     quadro = boundingRect(contornoAtual);
 
     Point centro;
 
-    // Calcula o centro do blob
+    /** Calcula o centro do blob */
     centro.x = (quadro.x + quadro.x + quadro.width) / 2;
     centro.y = (quadro.y + quadro.y + quadro.height) / 2;
 
     posicoesCentro.push_back(centro);
 
-    // Calcula a diagonal do quadro do blob
+    /** Calcula a diagonal do quadro do blob */
     diagonal = sqrt(pow(quadro.width, 2) + pow(quadro.height, 2));
 
-    // Calcula a proporção do quadro do blob
+    /** Calcula a proporção do quadro do blob */
     proporcao = (float)quadro.width / (float)quadro.height;
 
-    // Define que o blob está na tela e é atual/novo
+    /** Define que o blob está na tela e é atual/novo */
     naTela = true;
     blobAtualNovo = true;
 
     numFrames = 0;
 }
 
-// Calcula a próxima posição do centro do blob
+/** Calcula a próxima posição do centro do blob */
 void Blob::ProxPos(void) {
     int numPos = (int)posicoesCentro.size();
 

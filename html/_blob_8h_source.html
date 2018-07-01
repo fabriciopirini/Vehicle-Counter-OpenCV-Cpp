@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.13"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>My Project: Código-Fonte de Blob.h</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">My Project
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Gerado por Doxygen 1.8.13 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Localizar');
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+$(function() {
+  initMenu('',true,false,'search.php','Localizar');
+  $(document).ready(function() { init_search(); });
+});
+</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="header">
+  <div class="headertitle">
+<div class="title">Blob.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<a href="_blob_8h.html">Ir para a documentação deste ficheiro.</a><div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#include&lt;opencv2/core/core.hpp&gt;</span></div><div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor">#include&lt;opencv2/highgui/highgui.hpp&gt;</span></div><div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor">#include&lt;opencv2/imgproc/imgproc.hpp&gt;</span></div><div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;</div><div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacestd.html">std</a>;</div><div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="keyword">using namespace </span><a class="code" href="namespacecv.html">cv</a>;</div><div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;</div><div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#ifndef MY_BLOB</span></div><div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#define MY_BLOB</span></div><div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;</div><div class="line"><a name="l00011"></a><span class="lineno"><a class="line" href="class_blob.html">   11</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_blob.html">Blob</a> {</div><div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;    <span class="keyword">public</span>:</div><div class="line"><a name="l00013"></a><span class="lineno"><a class="line" href="class_blob.html#aa6387723adb0b9bc5972cf68cc85f4b3">   13</a></span>&#160;        Rect <a class="code" href="class_blob.html#aa6387723adb0b9bc5972cf68cc85f4b3">quadro</a>;                    </div><div class="line"><a name="l00014"></a><span class="lineno"><a class="line" href="class_blob.html#ad4eeb7d2aa4ef4f6c6e038737ce41043">   14</a></span>&#160;        Point <a class="code" href="class_blob.html#ad4eeb7d2aa4ef4f6c6e038737ce41043">proxPos</a>;                  </div><div class="line"><a name="l00015"></a><span class="lineno"><a class="line" href="class_blob.html#a07f56ca5b367f2a9b15622d92e2c671a">   15</a></span>&#160;        vector&lt;Point&gt; <a class="code" href="class_blob.html#a07f56ca5b367f2a9b15622d92e2c671a">posicoesCentro</a>;   </div><div class="line"><a name="l00016"></a><span class="lineno"><a class="line" href="class_blob.html#a83d705f2b426be288d87c6f606175889">   16</a></span>&#160;        vector&lt;Point&gt; <a class="code" href="class_blob.html#a83d705f2b426be288d87c6f606175889">contornoAtual</a>;    </div><div class="line"><a name="l00017"></a><span class="lineno"><a class="line" href="class_blob.html#ad77546934e684be45fa6d12d8370d0c7">   17</a></span>&#160;        <span class="keywordtype">double</span> <a class="code" href="class_blob.html#ad77546934e684be45fa6d12d8370d0c7">diagonal</a>;                </div><div class="line"><a name="l00018"></a><span class="lineno"><a class="line" href="class_blob.html#a0e1f64cf95a07d948728f9e00d1feec1">   18</a></span>&#160;        <span class="keywordtype">double</span> <a class="code" href="class_blob.html#a0e1f64cf95a07d948728f9e00d1feec1">proporcao</a>;               </div><div class="line"><a name="l00019"></a><span class="lineno"><a class="line" href="class_blob.html#a121b1af88b7c0752403f6eca92ab2150">   19</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_blob.html#a121b1af88b7c0752403f6eca92ab2150">blobAtualNovo</a>;             </div><div class="line"><a name="l00020"></a><span class="lineno"><a class="line" href="class_blob.html#a57b76134e44f731fdb2afcf85de066c4">   20</a></span>&#160;        <span class="keywordtype">bool</span> <a class="code" href="class_blob.html#a57b76134e44f731fdb2afcf85de066c4">naTela</a>;                    </div><div class="line"><a name="l00021"></a><span class="lineno"><a class="line" href="class_blob.html#a3c6b8107db4ef7269ad117f1120a69e3">   21</a></span>&#160;        <span class="keywordtype">int</span> <a class="code" href="class_blob.html#a3c6b8107db4ef7269ad117f1120a69e3">numFrames</a>;                  </div><div class="line"><a name="l00023"></a><span class="lineno">   23</span>&#160;        <a class="code" href="class_blob.html">Blob</a>(vector&lt;Point&gt; contorno);</div><div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;        <span class="keywordtype">void</span> ProxPos(<span class="keywordtype">void</span>);</div><div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;};</div><div class="line"><a name="l00026"></a><span class="lineno">   26</span>&#160;</div><div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;<span class="preprocessor">#endif    </span></div><div class="ttc" id="class_blob_html_aa6387723adb0b9bc5972cf68cc85f4b3"><div class="ttname"><a href="class_blob.html#aa6387723adb0b9bc5972cf68cc85f4b3">Blob::quadro</a></div><div class="ttdeci">Rect quadro</div><div class="ttdef"><b>Definition:</b> Blob.h:13</div></div>
+<div class="ttc" id="namespacestd_html"><div class="ttname"><a href="namespacestd.html">std</a></div></div>
+<div class="ttc" id="namespacecv_html"><div class="ttname"><a href="namespacecv.html">cv</a></div></div>
+<div class="ttc" id="class_blob_html_a0e1f64cf95a07d948728f9e00d1feec1"><div class="ttname"><a href="class_blob.html#a0e1f64cf95a07d948728f9e00d1feec1">Blob::proporcao</a></div><div class="ttdeci">double proporcao</div><div class="ttdef"><b>Definition:</b> Blob.h:18</div></div>
+<div class="ttc" id="class_blob_html_a3c6b8107db4ef7269ad117f1120a69e3"><div class="ttname"><a href="class_blob.html#a3c6b8107db4ef7269ad117f1120a69e3">Blob::numFrames</a></div><div class="ttdeci">int numFrames</div><div class="ttdef"><b>Definition:</b> Blob.h:21</div></div>
+<div class="ttc" id="class_blob_html_a83d705f2b426be288d87c6f606175889"><div class="ttname"><a href="class_blob.html#a83d705f2b426be288d87c6f606175889">Blob::contornoAtual</a></div><div class="ttdeci">vector&lt; Point &gt; contornoAtual</div><div class="ttdef"><b>Definition:</b> Blob.h:16</div></div>
+<div class="ttc" id="class_blob_html_ad4eeb7d2aa4ef4f6c6e038737ce41043"><div class="ttname"><a href="class_blob.html#ad4eeb7d2aa4ef4f6c6e038737ce41043">Blob::proxPos</a></div><div class="ttdeci">Point proxPos</div><div class="ttdef"><b>Definition:</b> Blob.h:14</div></div>
+<div class="ttc" id="class_blob_html_a57b76134e44f731fdb2afcf85de066c4"><div class="ttname"><a href="class_blob.html#a57b76134e44f731fdb2afcf85de066c4">Blob::naTela</a></div><div class="ttdeci">bool naTela</div><div class="ttdef"><b>Definition:</b> Blob.h:20</div></div>
+<div class="ttc" id="class_blob_html_ad77546934e684be45fa6d12d8370d0c7"><div class="ttname"><a href="class_blob.html#ad77546934e684be45fa6d12d8370d0c7">Blob::diagonal</a></div><div class="ttdeci">double diagonal</div><div class="ttdef"><b>Definition:</b> Blob.h:17</div></div>
+<div class="ttc" id="class_blob_html"><div class="ttname"><a href="class_blob.html">Blob</a></div><div class="ttdef"><b>Definition:</b> Blob.h:11</div></div>
+<div class="ttc" id="class_blob_html_a121b1af88b7c0752403f6eca92ab2150"><div class="ttname"><a href="class_blob.html#a121b1af88b7c0752403f6eca92ab2150">Blob::blobAtualNovo</a></div><div class="ttdeci">bool blobAtualNovo</div><div class="ttdef"><b>Definition:</b> Blob.h:19</div></div>
+<div class="ttc" id="class_blob_html_a07f56ca5b367f2a9b15622d92e2c671a"><div class="ttname"><a href="class_blob.html#a07f56ca5b367f2a9b15622d92e2c671a">Blob::posicoesCentro</a></div><div class="ttdeci">vector&lt; Point &gt; posicoesCentro</div><div class="ttdef"><b>Definition:</b> Blob.h:15</div></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Gerado por &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.13
+</small></address>
+</body>
+</html>
